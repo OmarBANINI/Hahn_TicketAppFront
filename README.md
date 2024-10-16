@@ -29,7 +29,7 @@ Before running the Angular application, ensure you have the following installed:
 Change to the directory where the Angular application is located. This is typically within a folder like `Hahn_TicketApp`:
 
 ```bash
-cd Hahn_TicketAppFront  # Replace with the actual folder name
+cd Hahn_TicketAppFront  
 ```
 
 ## Install Dependencies
