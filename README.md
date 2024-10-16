@@ -1,5 +1,4 @@
 # Hahn_TicketAppFront Setup Guide
-# Setting Up an Angular Application
 ## Prerequisites
 Before running the Angular application, ensure you have the following installed:
 
