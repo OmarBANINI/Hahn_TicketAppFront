@@ -1,0 +1,17 @@
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.mat-icon {
+  margin-right: 8px;
+  vertical-align: middle;
+  font-size: 24px;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  padding: 16px;              
+}
+

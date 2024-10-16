@@ -1,0 +1,43 @@
+<div class="main-content" style="margin: 100px;">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header card-header-danger">
+            <h1 style="color:rgb(5, 185, 185); font-weight: bold;">Ticket Management</h1>
+          </div>
+          <div class="card-body">
+            <form [formGroup]="ticketForm" (ngSubmit)="onSubmit()">
+              <div class="row">
+                <div class="col-md-4">
+                  <mat-form-field class="example-full-width">
+                    <textarea  matInput placeholder="Description" formControlName="description"></textarea>
+                    <mat-error *ngIf="ticketForm.get('description')?.hasError('required')">Description is required.</mat-error>
+                  </mat-form-field>
+                </div>
+                <div class="col-md-4">
+                  <mat-form-field class="example-full-width" >
+                    <mat-select placeholder="Status" formControlName="status" >
+                      <mat-option value="open">Open</mat-option>
+                      <mat-option value="closed">Closed</mat-option>
+                    </mat-select>
+                    <mat-error *ngIf="ticketForm.get('status')?.hasError('required')">Status is required.</mat-error>
+                  </mat-form-field>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div >
+                    <button mat-raised-button type="submit" style="color: white; background-color:rgb(5, 185, 185);">Submit</button>
+                  </div>
+                </div>
+              </div>
+
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
