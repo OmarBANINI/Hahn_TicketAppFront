@@ -3,17 +3,20 @@
 ## Prerequisites
 Before running the Angular application, ensure you have the following installed:
 
-- **Node.js** (which includes npm)
-  Version: 16.16.0 
+- **Node.js** (which includes npm)  
+  Version: **16.16.0**  
   Download and install from [Node.js official website](https://nodejs.org/).
 
-- **Angular CLI**
-  Version: 16.1.8 
+- **Angular CLI**  
+  Version: **16.1.8**  
   Install the Angular CLI globally using npm:
 
   ```bash
   npm install -g @angular/cli
   ```
+
+- **Angular**  
+  Version: **16.2.12**
 
 ## Clone the Repository
 1. Open your terminal or command prompt.
@@ -23,6 +26,7 @@ Before running the Angular application, ensure you have the following installed:
    ```bash
    git clone https://github.com/OmarBANINI/Hahn_TicketAppFront.git
    ```
+
 ## Navigate to the Angular Project Directory
 
 Change to the directory where the Angular application is located. This is typically within a folder like `Hahn_TicketApp`:
