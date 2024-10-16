@@ -3,10 +3,12 @@
 ## Prerequisites
 Before running the Angular application, ensure you have the following installed:
 
-- **Node.js** (which includes npm)  
+- **Node.js** (which includes npm)
+  Version: 16.16.0 
   Download and install from [Node.js official website](https://nodejs.org/).
 
-- **Angular CLI**  
+- **Angular CLI**
+  Version: 16.1.8 
   Install the Angular CLI globally using npm:
 
   ```bash
@@ -36,12 +38,6 @@ Run the following command to install the project dependencies defined in the `pa
 ```bash
 npm install
 ```
-
-## Update Environment Configuration
-
-If your application has environment-specific configurations (like API URLs), navigate to the `src/environments` folder.
-
-Update the `environment.ts` and `environment.prod.ts` files as necessary.
 
 ## Run the Application
 
