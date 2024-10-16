@@ -21,7 +21,7 @@ Before running the Angular application, ensure you have the following installed:
 3. Run the following command to clone the repository:
 
    ```bash
-   
+   https://github.com/OmarBANINI/Hahn_TicketAppFront.git
    ```
 
 ## Navigate to the Angular Project Directory
